@@ -90,6 +90,16 @@ p {
   line-height: 1.5;
 }
 
+.about-section-content a {
+  background-color: var(--branding-color);
+  color: white;
+  transition: all 100ms ease-in-out;
+}
+
+.about-section-content a:hover {
+  color: var(--secondary-color);
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -109,7 +119,7 @@ p {
 }
 
 .project-description {
-  padding: 120px 60px 0;
+  padding: 120px 60px;
 }
 
 .logo {
@@ -149,7 +159,6 @@ footer .contact-box {
   background-color: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 5px;
-  margin: 70px;
 }
 
 footer .contact-box p {
