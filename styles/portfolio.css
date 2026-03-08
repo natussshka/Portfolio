@@ -357,4 +357,23 @@ footer .email-link {
 footer .email-link:hover {
   color: var(--branding-color);
 }
+.about-section-content {
+  max-width: 650px;
+}
+
+.content-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.content h2 {
+  font-size: 28px;
+  color: var(--branding-color);
+  margin-top: 30px;
+}
+
+.content p {
+  font-size: 17px;
+  line-height: 1.8;
+}
 }
