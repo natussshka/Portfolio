@@ -246,6 +246,11 @@ footer .social-links a:hover {
     max-width: 100%;
   }
 }
+.hero-photo {
+  max-width: 320px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(181, 126, 220, 0.18);
+}
   footer {
     margin: 60px 20px 30px;
   }
