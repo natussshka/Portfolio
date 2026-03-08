@@ -376,4 +376,7 @@ footer .email-link:hover {
   font-size: 17px;
   line-height: 1.8;
 }
+body {
+  background: hotpink !important;
+}
 }
