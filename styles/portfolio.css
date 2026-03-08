@@ -158,6 +158,11 @@ nav li.active a {
   color: white;
 }
 
+.logo {
+  max-height: 36px;
+  width: auto;
+}
+
 footer {
   margin: 80px 40px 40px;
 }
