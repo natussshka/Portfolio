@@ -64,6 +64,10 @@ p {
 .hero img {
   max-height: 408px;
   border-radius: 4px;
+  
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(181, 126, 220, 0.35);
+
 }
 .content-container {
   padding: 60px 20px;
