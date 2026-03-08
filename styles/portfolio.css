@@ -81,11 +81,14 @@ p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
- .lead {
-  font-size: 22px;
-  margin-top: 15px;
-  color: #777;
+.lead {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #8f79b8;
+  margin-bottom: 8px;
 }
+ 
 .content p {
   font-size: 14px;
 }
