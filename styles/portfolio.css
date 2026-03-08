@@ -158,6 +158,14 @@ nav li.active a {
   color: white;
 }
 
+.about-image {
+  max-width: 75%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(181, 126, 220, 0.18);
+}
+
 .logo {
   max-height: 36px;
   width: auto;
