@@ -377,14 +377,60 @@ footer .email-link:hover {
   line-height: 1.8;
 }
 body {
-  background: hotpink !important;
+  background: #f8f3ff;
+  color: #272142;
 }
 
-html {
-  background: hotpink !important;
+.content-container {
+  padding: 70px 20px;
 }
-body {
-  background: hotpink !important;
+
+.content {
+  margin: 10px 20px 10px 0;
+}
+
+.content h1 {
+  font-size: 56px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-family: var(--heading-font-family);
+  color: var(--branding-color);
+  margin-top: 34px;
+  margin-bottom: 14px;
+  line-height: 1.3;
+}
+
+.content p,
+.content li {
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.content ul {
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+.lead {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #8f79b8;
+  margin-bottom: 8px;
+}
+
+img.img-fluid {
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(181, 126, 220, 0.22);
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 
 }
