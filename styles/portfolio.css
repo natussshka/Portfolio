@@ -433,20 +433,35 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
 .project-card {
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.78);
   border-radius: 18px;
   padding: 28px 30px;
   box-shadow: 0 10px 25px rgba(120, 80, 160, 0.10);
+  height: 100%;
 }
 
 .project-card h3 {
-  font-size: 30px;
-  margin-bottom: 16px;
+  font-size: 28px;
+  margin-bottom: 14px;
   color: var(--branding-color);
 }
 
-.project-card p:last-child {
+.project-card p {
+  font-size: 16px;
+  line-height: 1.7;
   margin-bottom: 0;
+}
+
+@media (max-width: 960px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
 }
