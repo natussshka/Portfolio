@@ -241,6 +241,11 @@ footer .social-links a:hover {
     padding: 22px 20px;
   }
 
+  @media (max-width: 768px) {
+  .about-image {
+    max-width: 100%;
+  }
+}
   footer {
     margin: 60px 20px 30px;
   }
