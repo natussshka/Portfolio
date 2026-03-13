@@ -96,6 +96,12 @@ nav li.active a {
   box-shadow: 0 10px 30px rgba(181, 126, 220, 0.22);
 }
 
+.hero-photo {
+  max-width: 320px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(181, 126, 220, 0.18);
+}
+
 .subtitle,
 .lead {
   font-size: 16px;
@@ -119,16 +125,17 @@ nav li.active a {
   box-shadow: 0 10px 30px rgba(181, 126, 220, 0.18);
 }
 
-.project-card {
-  background: rgba(255, 255, 255, 0.82);
-  border-radius: 18px;
-  padding: 28px 30px;
-  box-shadow: 0 10px 25px rgba(120, 80, 160, 0.10);
-  height: 100%;
+.logo {
+  max-height: 36px;
+  width: auto;
 }
 
-.project-card p:last-child {
-  margin-bottom: 0;
+.about-image {
+  max-width: 75%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(181, 126, 220, 0.18);
 }
 
 .btn-branding {
@@ -158,54 +165,102 @@ nav li.active a {
   color: white;
 }
 
-.about-image {
-  max-width: 75%;
-  display: block;
-  margin: 0 auto;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(181, 126, 220, 0.18);
+.projects {
+  padding: 60px 0 80px;
 }
 
-.logo {
-  max-height: 36px;
-  width: auto;
+.project-card {
+  background: white;
+  border-radius: 18px;
+  padding: 28px 30px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  transition: all 0.2s ease;
 }
 
-footer {
-  margin: 80px 40px 40px;
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.12);
 }
 
-footer .contact-box {
+.project-card h2,
+.project-card h3 {
+  margin-bottom: 1rem;
+}
+
+.project-card p:last-child {
+  margin-bottom: 0;
+}
+
+.feature-card {
+  background: linear-gradient(135deg, #f4f2ff, #ffffff);
+}
+
+.offer-card {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 18px;
+  padding: 28px 26px;
+  box-shadow: 0 10px 25px rgba(120, 80, 160, 0.10);
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.offer-card h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: var(--branding-color);
+}
+
+.offer-card p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.offer-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 30px rgba(120, 80, 160, 0.15);
+}
+
+.contact-section {
+  padding: 60px 0;
+}
+
+.contact-box {
   background-color: var(--secondary-color);
-  padding: 30px 40px;
-  border-radius: 12px;
+  border-radius: 16px;
+  padding: 40px 20px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-footer .contact-box p {
-  margin: 0;
-}
-
-footer .email-link {
+.email-link {
   color: var(--text-color);
   font-size: 22px;
 }
 
-footer .email-link:hover {
+.email-link:hover {
   color: var(--branding-color);
 }
 
-footer .social-links a {
+.social-links a {
+  display: inline-block;
   margin: 0 10px;
   color: var(--branding-color);
-  background-color: var(--secondary-color);
+  background-color: white;
   padding: 10px 14px;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 50%;
 }
 
-footer .social-links a:hover {
+.social-links a:hover {
   color: white;
   background-color: var(--branding-color);
+  opacity: 1;
+}
+
+footer {
+  margin: 40px 20px 30px;
+  color: var(--text-color);
 }
 
 @media (max-width: 960px) {
@@ -237,135 +292,27 @@ footer .social-links a:hover {
     padding: 50px 20px;
   }
 
-  .project-card {
+  .project-card,
+  .offer-card {
     padding: 22px 20px;
   }
 
-  @media (max-width: 768px) {
+  footer {
+    margin: 30px 15px 25px;
+  }
+}
+
+@media (max-width: 768px) {
   .about-image {
     max-width: 100%;
   }
-}
-.hero-photo {
-  max-width: 320px;
-  border-radius: 18px;
-  box-shadow: 0 10px 30px rgba(181, 126, 220, 0.18);
-}
-  footer {
-    margin: 60px 20px 30px;
+
+  .hero-photo {
+    max-width: 260px;
   }
-  .offer-card {
-  background: rgba(255, 255, 255, 0.85);
-  border-radius: 18px;
-  padding: 28px 26px;
-  box-shadow: 0 10px 25px rgba(120, 80, 160, 0.10);
-  height: 100%;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
 
-.offer-card h3 {
-  font-size: 24px;
-  margin-bottom: 12px;
-  color: var(--branding-color);
-}
-
-.offer-card p {
-  font-size: 16px;
-  line-height: 1.7;
-}
-
-.offer-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 30px rgba(120, 80, 160, 0.15);
-}
-
-.project-card {
-  background: white;
-  border-radius: 18px;
-  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
-  transition: all 0.2s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 14px 36px rgba(0,0,0,0.12);
-}
-
-.feature-card {
-  background: linear-gradient(135deg, #f4f2ff, #ffffff);
-}
-
-.project-card h2,
-.project-card h3 {
-  margin-bottom: 1rem;
-}
-
-.projects {
-  padding: 60px 0 80px;
-}
-
-.contact-section {
-  margin-top: 40px;
-  padding: 40px 20px;
-  background: #f8f9fa;
-  border-radius: 16px;
-}
-
-.projects {
-  padding-bottom: 80px;
-}
-
-.contact-section {
-  margin-top: 40px;
-  padding: 60px 0;
-}
-
-.contact-box {
-  background: #f8f9fa;
-  border-radius: 16px;
-  padding: 40px 20px;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.email-link {
-  font-size: 20px;
-  text-decoration: none;
-  color: #000;
-}
-
-.social-links a {
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-.contact-section {
-  padding: 60px 0;
-}
-
-.contact-box {
-  background: #f8f9fa;
-  border-radius: 16px;
-  padding: 40px 20px;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.email-link {
-  font-size: 22px;
-  text-decoration: none;
-  color: #000;
-}
-
-.social-links a {
-  margin: 0 12px;
-  font-size: 28px;
-  color: #000;
-  transition: all 0.2s ease-in-out;
-}
-
-.social-links a:hover {
-  opacity: 0.7;
-}
-
+  .social-links a {
+    font-size: 18px;
+    padding: 9px 12px;
+  }
 }
