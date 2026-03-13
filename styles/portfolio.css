@@ -311,5 +311,32 @@ footer .social-links a:hover {
   border-radius: 16px;
 }
 
+.projects {
+  padding-bottom: 80px;
+}
+
+.contact-section {
+  margin-top: 40px;
+  padding: 60px 0;
+}
+
+.contact-box {
+  background: #f8f9fa;
+  border-radius: 16px;
+  padding: 40px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.email-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+}
 
 }
