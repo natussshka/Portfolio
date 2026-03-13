@@ -300,4 +300,16 @@ footer .social-links a:hover {
   margin-bottom: 1rem;
 }
 
+.projects {
+  padding: 60px 0 80px;
+}
+
+.contact-section {
+  margin-top: 40px;
+  padding: 40px 20px;
+  background: #f8f9fa;
+  border-radius: 16px;
+}
+
+
 }
