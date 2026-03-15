@@ -187,10 +187,20 @@ nav li.active a {
 .project-card {
   background: white;
   border-radius: 16px;
-  padding: 16px 18px;   /* smaller padding */
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  padding: 16px 18px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
   height: 100%;
   transition: all 0.2s ease;
+}
+
+.project-card h2,
+.project-card h3 {
+  margin-bottom: 6px;
+}
+
+.project-card p {
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .project-card:hover {
@@ -199,8 +209,7 @@ nav li.active a {
 }
 
 .feature-card {
-  background: linear-gradient(135deg, #f4ecff, #ffffff);
-  padding: 34px 32px;
+  background: linear-gradient(135deg,#f4ecff,#ffffff);
 }
 
 .feature-card h2 {
@@ -231,7 +240,9 @@ nav li.active a {
 }
 
 footer {
-  padding: 20px 0 40px;
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid rgba(0,0,0,0.08);
 }
 
 .footer-content {
