@@ -172,7 +172,7 @@ nav li.active a {
 
 
 .projects-section {
-  padding: 80px 20px 60px;
+  padding: 60px 20px 60px;
 }
 
 .section-heading {
@@ -284,9 +284,7 @@ footer {
     padding: 24px;
   }
 
-  .project-card {
-    padding: 20px;
-  }
+  
 
   .social-links a {
     margin: 0 6px;
