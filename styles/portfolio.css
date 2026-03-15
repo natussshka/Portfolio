@@ -189,7 +189,6 @@ nav li.active a {
   border-radius: 16px;
   padding: 14px 16px;   /* was much bigger */
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-  height: 100%;
   transition: all 0.2s ease;
 }
 
@@ -237,9 +236,7 @@ nav li.active a {
   margin-bottom: 0;
 }
 
-.projects-section .row {
-  align-items: stretch;
-}
+
 
 .project-card h2,
 .project-card h3 {
