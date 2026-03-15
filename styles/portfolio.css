@@ -434,5 +434,9 @@ footer {
   transform: rotate(-1deg);
 }
 
+.accountability-page .row:first-of-type {
+  margin-top: 40px;
+}
+
 }
 
