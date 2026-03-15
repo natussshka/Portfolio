@@ -427,6 +427,12 @@ footer {
     padding: 24px;
   }
 }
+.accountability-photo {
+  max-width: 360px;
+  border-radius: 20px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+  transform: rotate(-1deg);
+}
 
 }
 
