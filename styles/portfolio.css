@@ -236,7 +236,9 @@ nav li.active a {
   margin-bottom: 0;
 }
 
-
+.small-card {
+  padding: 14px 16px;
+}
 
 .project-card h2,
 .project-card h3 {
